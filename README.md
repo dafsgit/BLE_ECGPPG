@@ -1,26 +1,3 @@
----
-page_type: sample
-languages:
-- csharp
-- cpp
-- cppwinrt
-products:
-- windows
-- windows-uwp
-urlFragment: BluetoothLE
-extendedZipContent:
-- path: SharedContent
-  target: SharedContent
-- path: LICENSE
-  target: LICENSE
-description: "Shows how to use the Windows Bluetooth LE APIs to act either as a BLE client or server."
----
-
-<!---
-  category: DevicesSensorsAndPower
-  samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=820786
--->
-
 # Bluetooth Low Energy sample
 
 Shows how to use the Windows Bluetooth LE APIs to act either as a BLE client or server. 

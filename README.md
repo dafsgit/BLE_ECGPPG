@@ -48,16 +48,6 @@ Specifically, this sample shows how to:
 - Read and write data
 - Subscribe to indicate and notify events
 
-## Server
-As of build 15003 and above, Bluetooth LE GATT Server APIs are available.
-This sample can be used to advertise support for CalcService - a custom service that allows a remote client to write to two operand characteristics
-and an operator and read the result. 
-
-This samples shows how to:
-- Initialize and publish a custom service/characteristic hierarchy 
-- Implement event handlers to handle incoming read/write requests
-- Notify connected clients of a characteristic value change
-
 ## More Details
 Search for "BT_Code" to find the portions of the sample that are particularly
 relevant to Bluetooth.
@@ -70,22 +60,6 @@ To obtain information about Windows 10 development, go to the [Windows Dev Cente
 To obtain information about Microsoft Visual Studio and the tools for developing Windows apps, go to [Visual Studio](http://go.microsoft.com/fwlink/?LinkID=532422)
 
 ## Related topics
-
-### Samples
-
-[Bluetooth Rfcomm](../BluetoothRfcommChat)
-
-[Bluetooth Advertisement](../BluetoothAdvertisment)
-
-[Device Enumeration and Pairing](../DeviceEnumerationAndPairing)
-
-### Reference
-
-[Windows.Devices.Bluetooth namespace](https://msdn.microsoft.com/library/windows/apps/windows.devices.bluetooth.aspx)
-
-[Windows.Devices.Bluetooth.GenericAttributeProfile namespace](https://msdn.microsoft.com/library/windows/apps/windows.devices.bluetooth.genericattributeprofile.aspx)
-
-[Windows.Devices.Enumeration namespace](https://msdn.microsoft.com/library/windows/apps/windows.devices.enumeration.aspx)
 
 ### Conceptual
 
